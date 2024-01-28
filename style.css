@@ -1,0 +1,85 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  padding: 60px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.caret {
+  float: right;
+  transition: transform 0.2s;
+}
+
+.dd-menu {
+  margin: 0 auto;
+  border: 1px solid black;
+  font: normal 15px sans-serif;
+  width: 100%;
+  border-radius: 4px;
+  max-width: 200px;
+  position: relative;
+}
+
+.menu-values {
+  line-height: 25px;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  top: 25px;
+  left: -1px;
+  right: 0;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.menu-values .item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menu-values .item:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+.rotate-caret {
+  transform: rotate(90deg);
+}
+
+.selector {
+  cursor: pointer;
+  padding: 5px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.website {
+  font: normal 14px sans-serif;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  letter-spacing: 0.5px;
+  display: block;
+  cursor: pointer;
+  background-color: #313b3f;
+  padding: 10px;
+  overflow: auto;
+}
+.website a {
+  text-decoration: none;
+  color: #d9a74a;
+  float: right;
+}
+.website span {
+  color: #d9a74a;
+}
