@@ -61,25 +61,3 @@ body {
 p {
   margin-top: 10px;
 }
-
-.website {
-  font: normal 14px sans-serif;
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  top: 0;
-  letter-spacing: 0.5px;
-  display: block;
-  cursor: pointer;
-  background-color: #313b3f;
-  padding: 10px;
-  overflow: auto;
-}
-.website a {
-  text-decoration: none;
-  color: #d9a74a;
-  float: right;
-}
-.website span {
-  color: #d9a74a;
-}
